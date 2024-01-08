@@ -1,4 +1,3 @@
-// Creating my variables
 var characterLength = 8;
 var choiceArray = [];
 var specialCharacters = ['!', '"', '#', '$', '%', '&', '(', ')', '*', '+', '-', '/', ':', ';', ';', '<', '=', '>', '?', '@'];
@@ -7,13 +6,10 @@ var upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'
 var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 
-// Assignment Code
 var generatebottonBackground = document.querySelector("#generate");
 
-// Add event listener to generate button
 generatebottonBackground.addEventListener("click", writePassword);
 
-// Write password to the #password input
 function writePassword() {
     var correctPrompts = getPrompts();
 
@@ -24,7 +20,6 @@ function writePassword() {
     }
 }
 
-// generate password based on criteria 
 function generatePassword() {
   var password = "";
   for (var i = 0; i < characterLength; i++){
@@ -34,7 +29,6 @@ function generatePassword() {
   return password; 
 }
 
-// Prompt selection. What the password will be made up of. 
 function getPrompts() {
   choiceArray = [];
   characterLength = parseInt(prompt("How long will your password be? (Choose between 8 - 128 characters."));

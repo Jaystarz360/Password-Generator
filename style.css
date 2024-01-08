@@ -11,6 +11,7 @@ body {
 
 header {
   text-align: center;
+  font-size: 30px;
   color: #000000;
   padding-top: 50px;
   
@@ -20,7 +21,7 @@ header {
   background-color: #0b1b58;
   color: #fff200;
   Text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   border-width: 1px;
   margin: 0 auto;
   padding: 30px 40px;
