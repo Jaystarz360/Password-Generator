@@ -1,10 +1,3 @@
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
-
-
 body {
   font-family: sans-serif;
   background-color: #4f00bd;
@@ -28,18 +21,15 @@ header {
   color: #fff200;
   Text-align: center;
   font-size: 18px;
-  border-radius: 15px;
   border-width: 1px;
   margin: 0 auto;
   padding: 30px 40px;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px; */
   max-width: 800px;
 }
 
 .card-header::after {
   display: block;
   background: #141204;
-  /* content: " "; */
   width: 100%;
   height: 2px;
 }
@@ -53,7 +43,6 @@ header {
 }
 
 .card-footer::before {
-  /* content: " "; */
   display: block;
   width: 100%;
   background: #141204;
@@ -61,19 +50,14 @@ header {
 }
 
 .card-footer::after {
-  /* content: " "; */
   display: block;
   clear: both;
 }
 
 .bottonBackground {
   background-color: #000000;
-  /* border: none; */
   text-align: center;
   cursor: pointer;  
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -104,9 +88,7 @@ button[disabled] {
   padding-bottom: 85px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 6px;
   overflow: hidden;
-  /* resize: none; */
 }
 
 @media (max-width: 690px) {
