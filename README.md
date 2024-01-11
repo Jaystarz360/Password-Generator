@@ -37,6 +37,11 @@ THEN the password is either displayed in an alert or written to the page
 
 ![Alt text](<Screen Pic4.PNG>)
 
+
+## Credits
+
+>Google
+
 ## License
 Copyright 2024 Jaystarz360
 
