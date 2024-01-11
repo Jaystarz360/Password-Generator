@@ -31,3 +31,8 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+![Alt text](<Screen Pic.PNG>)
+
+![Alt text](<Screen Pic2.PNG>) ![Alt text](<Screen Pic3.PNG>)
+
+![Alt text](<Screen Pic4.PNG>)
